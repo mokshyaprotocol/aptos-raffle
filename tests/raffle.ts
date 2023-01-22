@@ -12,9 +12,9 @@ const client = new AptosClient(NODE_URL);
 const faucetClient = new FaucetClient(NODE_URL, FAUCET_URL);
 //pid
 const pid="0x16174b11a0360ae4a5a4149c5464c506a3ba06fb61ab8128d547011630670b21";
-// Creator Account
+// Raffle Creator
 const account1 = new AptosAccount();
-// Staker Account
+// Raffle Player
 const account2 = new AptosAccount();
 //Token Info
 const collection = "Mokshya Collection 11";

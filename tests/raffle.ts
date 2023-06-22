@@ -48,7 +48,7 @@ const tokenClient = new TokenClient(client);
     };
     let txnRequest = await client.generateTransaction(account1.address(), create_collection_payloads);
     let bcsTxn = AptosClient.generateBCSTransaction(account1, txnRequest);
-    await client.submitSignedBCSTransaction(bcsTxn);
+     await client.submitSignedBCSTransaction(bcsTxn);
   });
   it ("Create Token", async () => {
     const create_token_payloads = {
